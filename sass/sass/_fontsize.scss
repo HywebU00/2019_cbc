@@ -1,0 +1,56 @@
+.font_size {
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    margin-right: -4px;
+    margin-top: 5px;
+    span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: .938em;
+        color: #666;
+    }
+    ul {
+        display: inline-block;
+        vertical-align: middle;
+        @include li-reset;
+        li {
+            width: 30px;
+            height: 30px;
+            font-size: 1em;
+            float: left;
+            display: block;
+            margin: 0 .2em;
+            a {
+                display: block;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 50%;
+                background: $fontsizeBg;
+                color: #fff;
+                &:hover, &:focus {
+                    background: $primaryColor;
+                    color: #fff;
+                    box-shadow: 0 0 0 0;
+                }
+                &.active {
+                    background:  $aHover!important;
+                    &:hover, &:focus {
+                        background: $primaryColor;
+                        color: #FFF;
+                        box-shadow: 0 0 0 0;
+                    }
+                }
+                &.small {
+                    font-size: .938em;
+                }
+                &.large {
+                    font-size: 1.125em;
+                }
+            }
+        }
+    }
+    @include screen('mobile') {
+        // display: none;
+    }
+}
