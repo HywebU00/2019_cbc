@@ -123,19 +123,27 @@ $(function() {
         // var Sec_index = $(this).index();   
         // console.log(Sec_index+SecHTML);
         $('.vslider_menu ul').append('<li><a href="#">' + caption + '</a>');
+		$(this).find('img').attr('alt','');
         $(this).find('a').append('<h3>' + caption + '</h3>');
         // console.log('sec_index='+sec_index);
     });
+	// mp slider vertical menu
     var menuLength = $('.vertical_slider ul li').length;
-    $(window).bind("load resize", function(e) {
-        var vsliderH = $('.vertical_slider').height();
-        // console.log(vsliderH);
+	var vsliderH = $('.vertical_slider').height();
+    menuLiHeight = Math.floor(vsliderH / menuLength);
+    $('.vslider_menu ul li').each(function(index, el) {
+		$(this).css('height', menuLiHeight - 1);
+	});
+    $('.vslider_menu ul li:last').height(menuLiHeight + 2);	
+    $(window).resize(function(e) {
+        var vsliderH = $('.vertical_slider').height();        
         menuLiHeight = Math.floor(vsliderH / menuLength);
         $('.vslider_menu ul li').each(function(index, el) {
             $(this).css('height', menuLiHeight - 1);
         });
         $('.vslider_menu ul li:last').height(menuLiHeight + 2);
     });
+	//
     var TIMER = 0
     var enterSliderMode = false;
     // console.log(enterSliderMode)
@@ -169,7 +177,7 @@ $(function() {
         }, vertical_slider_speed);
         // console.log(TIMER);
     };
-    TimerStart();
+    //TimerStart();
 
     function TimerStop() {
         clearInterval(TIMER);
