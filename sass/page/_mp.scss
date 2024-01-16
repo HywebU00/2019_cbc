@@ -5,7 +5,7 @@ div.more {
   position: relative;
   clear: both;
   @include screen('mobile') {
-    text-align: center;   
+    text-align: center;
   }
   a {
     text-decoration: none;
@@ -302,7 +302,7 @@ div.more {
   z-index: 90;
   display: inline-block;
   float: right;
-  @media screen and(max-width: 991px) {
+  @media screen and (max-width: 991px) {
     display: none;
   }
   ul {
@@ -473,13 +473,13 @@ div.more {
             border-top: 1px solid #000;
             border-bottom: 0px solid #f2f2f2;
           }
-          a{     
+          a{
             border-top: 2px solid $primaryColor;
             border-bottom: 2px solid $primaryColor;
             background: $primaryColor;
             box-shadow: 0 -10px 0 0 $primaryColor,0 10px 0 0 $primaryColor;
             cursor: pointer;
-            @include screen('mobile') { 
+            @include screen('mobile') {
               border-top: 1px solid #f2f2f2;
             }
             &:hover,&:focus{
@@ -682,7 +682,7 @@ ul.link_banner{
   }
 }
 
-.key_indicators_block { 
+.key_indicators_block {
   .tabSet{
     max-width: 100%;
     overflow: inherit;
@@ -725,7 +725,7 @@ ul.link_banner{
       a{
         border: 0;
         padding: 20px 20px 20px 30px;
-        text-align: right; 
+        text-align: right;
         cursor: pointer;
         &:before,&:after{
           display: none;
@@ -736,7 +736,7 @@ ul.link_banner{
       }
       h3{
         font-size: 1.25em;
-        font-weight: normal;  
+        font-weight: normal;
         margin: 0;
         float: left;
         position: relative;
@@ -947,8 +947,8 @@ ul.link_banner{
 //         right: 28px;
 //         border-right: 2px solid $primaryColor;
 //         border-bottom: 2px solid $primaryColor;
-//         border-top:0px; 
-//         border-left:0px; 
+//         border-top:0px;
+//         border-left:0px;
 //         z-index: 13;
 //         border-radius: 0;
 //         transform: rotate(45deg);
@@ -969,8 +969,8 @@ ul.link_banner{
 //           right: 28px;
 //           border-right: 2px solid $primaryColor;
 //           border-bottom: 2px solid $primaryColor;
-//           border-top:0px; 
-//           border-left:0px; 
+//           border-top:0px;
+//           border-left:0px;
 //           z-index: 13;
 //           border-radius: 0;
 //           transform: rotate(45deg);
@@ -1139,14 +1139,14 @@ ul.link_banner{
       clear: both;
       display: block;
     }
-  } 
+  }
   li{
     // width: 32.5%;
     float: left;
     padding:0 10px;
     vertical-align: top;
     position: relative;
-    
+
     @include screen('mobile') {
       width: 100%;
       margin-right: 0;
@@ -1267,7 +1267,7 @@ ul.link_banner{
     }
   }
   .slick-prev {
-    left: 0; 
+    left: 0;
   }
   .slick-next {
     right: 0;
@@ -1313,13 +1313,13 @@ ul.link_banner{
             border-top: 1px solid #000;
             border-bottom: 0px solid #f2f2f2;
           }
-          a{     
+          a{
             border-top: 2px solid $primaryColor;
             border-bottom: 2px solid $primaryColor;
             background: $primaryColor;
             box-shadow: 0 -10px 0 0 $primaryColor,0 10px 0 0 $primaryColor;
             cursor: pointer;
-            @include screen('mobile') { 
+            @include screen('mobile') {
               border-top: 1px solid #f2f2f2;
             }
             &:hover,&:focus{
@@ -1339,7 +1339,7 @@ ul.link_banner{
     >a{
       @include screen('mobile') {
         background: #f3f3f3;
-      }   
+      }
     }
   }
   .tabContent{

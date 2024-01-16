@@ -1,28 +1,29 @@
-.rss{
-  h3{
+.rss {
+  h3 {
     color: $primaryColor;
   }
-  ul{
+  ul {
     padding-left: 0;
-    li{
+    li {
       list-style: none;
       margin-bottom: 12px;
-      &:before{
+      &:before {
         content: "";
         width: 20px;
         height: 20px;
         border-radius: 3px;
         display: block;
-        background:#ff8e06 url("../images/basic/icon_rss.png");
+        background: #ff8e06 url("../images/basic/icon_rss.png");
         background-size: cover;
         display: inline-block;
         margin-right: 10px;
         vertical-align: middle;
       }
-      a{
+      a {
         text-decoration: none;
         color: #444;
-        &:hover,&:focus{
+        &:hover,
+        &:focus {
           text-decoration: underline;
           color: $primaryColor;
           // box-shadow: 0 0 0 0;
@@ -32,21 +33,21 @@
   }
 }
 //「五大銀行平均存款利率」與「五大銀行平均基準利率」
-.rate_table{
+.rate_table {
   margin: 10px 0;
-  .rate_info{
+  .rate_info {
     .time {
       float: left;
       display: block;
-      color:#666;
-      span{
-        font-size:.938em;
+      color: #666;
+      span {
+        font-size: 0.938em;
       }
-      time{
-        font-family:georgia;
-        font-size:1.125em;
-        @include screen('mobile') {
-          font-size:.938em;
+      time {
+        font-family: georgia;
+        font-size: 1.125em;
+        @include screen("mobile") {
+          font-size: 0.938em;
         }
       }
       &:before {
@@ -54,58 +55,59 @@
         display: inline-block;
         width: 12px;
         height: 12px;
-        top:.3em;
+        top: 0.3em;
         background: url(../images/basic/icon_time.png) no-repeat center center;
         background-size: 12px;
       }
     }
-    .unit{
+    .unit {
       float: right;
-      font-size: .938em;
+      font-size: 0.938em;
     }
   }
-  dl{
-    dt{
+  dl {
+    dt {
       display: inline-block;
     }
-    dd{
+    dd {
       display: inline-block;
       clear: both;
     }
   }
-  table{
+  table {
     margin-bottom: 1em;
   }
-  th,td{
+  th,
+  td {
     text-align: left;
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
-  th{
+  th {
     width: 30%;
-    letter-spacing: .2em;
-    @include screen('mobile') {
+    letter-spacing: 0.2em;
+    @include screen("mobile") {
       width: 38%;
       white-space: normal;
-    } 
-    em{
+    }
+    em {
       text-decoration: underline;
       font-style: normal;
     }
   }
-  td{
-    &.rate{
+  td {
+    &.rate {
       color: $importantColor;
       font-weight: bold;
     }
-    &.length{
+    &.length {
       width: 30%;
       background: #efefef;
     }
   }
 }
-.governors{
-  h2{
+.governors {
+  h2 {
     position: relative;
     clear: both;
     // padding-left: 35px;
@@ -122,85 +124,86 @@
 
     // }
   }
-  .governors_info{
+  .governors_info {
     display: inline-block;
     margin-right: 3%;
     width: 162px;
     font-size: 1.125em;
     text-align: center;
     margin-bottom: 20px;
-    .pic{
+    .pic {
       display: block;
       width: 162px;
       height: 194px;
       overflow: hidden;
       margin-bottom: 10px;
       border: 1px solid #ccc;
-      img{
+      img {
         width: 100%;
         height: auto;
       }
     }
-    a{
+    a {
       color: #444;
       text-decoration: none;
-      &:hover,&:focus{
+      &:hover,
+      &:focus {
         color: $aHover;
         text-decoration: underline;
         box-shadow: 0 0 0 0;
       }
     }
   }
-  .governors_intro{
+  .governors_intro {
     padding-left: 300px;
     margin-top: 15px;
     position: relative;
-    @include screen('tablet') {
+    @include screen("tablet") {
       padding-left: 190px;
     }
-    @include screen('mobile') {
+    @include screen("mobile") {
       padding-left: 0;
     }
-    .pic{
+    .pic {
       width: 162px;
       height: 194px;
       overflow: hidden;
       border: 1px solid #ccc;
       position: absolute;
       left: 110px;
-      @include screen('tablet') {
+      @include screen("tablet") {
         left: 0;
       }
-      @include screen('mobile') {
+      @include screen("mobile") {
         position: relative;
         left: auto;
         margin: 0 auto;
       }
-      img{
+      img {
         width: 100%;
         height: auto;
       }
     }
-    h3{
+    h3 {
       border-bottom: 2px solid #ccc;
       padding-bottom: 10px;
-      @include screen('mobile') {
+      @include screen("mobile") {
         text-align: center;
       }
     }
-    h4{
+    h4 {
       margin-bottom: 0;
       color: $primaryColor;
     }
-    ul{
+    ul {
       padding-left: 0;
       list-style: none;
     }
-    li{
+    li {
       position: relative;
       padding-left: 16px;
       margin-bottom: 4px;
-      &:before{
+      &:before {
         content: "";
         width: 4px;
         height: 4px;
@@ -212,12 +215,12 @@
       }
     }
   }
-  .governors_list{
-    ul{
+  .governors_list {
+    ul {
       list-style: none;
       padding-left: 0;
     }
-    li{
+    li {
       position: relative;
       z-index: 9;
       display: block;
@@ -226,14 +229,14 @@
       clear: both;
       background: #fff;
       border: 0;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       float: none;
-      letter-spacing: .02em;
-      @include screen('mobile') {
+      letter-spacing: 0.02em;
+      @include screen("mobile") {
         padding: 10px 10px 10px 15px;
         letter-spacing: 0;
       }
-      &:before{
+      &:before {
         content: "";
         width: 10px;
         height: 100%;
@@ -244,17 +247,18 @@
         background: $primaryColor;
         z-index: 10;
       }
-      a{
-        border: 0; 
+      a {
+        border: 0;
         cursor: pointer;
         display: block;
         color: #333;
         padding: 3px 0;
         position: relative;
-        @include screen('mobile') {
+        @include screen("mobile") {
           padding: 3px 30px 3px 0px;
         }
-        &:hover,&:focus{
+        &:hover,
+        &:focus {
           text-decoration: underline;
           // box-shadow: 0 0 0 0;
         }
@@ -286,7 +290,7 @@
           z-index: 12;
           border: 0;
         }
-        &.active{
+        &.active {
           &:before {
             content: "";
             position: absolute;
@@ -302,32 +306,32 @@
             z-index: 13;
             border-radius: 0;
           }
-          &:after{
+          &:after {
             background: $aHover;
           }
         }
-        span{
+        span {
           float: left;
           font-size: 1.125em;
           color: $primaryColor;
-          @include screen('mobile') {
+          @include screen("mobile") {
             float: none;
             display: block;
           }
-          &:after{
+          &:after {
             content: "/";
             margin-right: 10px;
             margin-left: 10px;
           }
         }
       }
-      .governors_content{
+      .governors_content {
         border-top: 1px solid #ccc;
         margin-top: 10px;
-        dt{
+        dt {
           font-weight: bold;
         }
-        dd{
+        dd {
           margin-left: 0;
           margin-bottom: 10px;
         }
@@ -335,98 +339,517 @@
     }
   }
 }
-.inslist{
-  table{
+.inslist {
+  table {
     margin-bottom: 20px;
   }
-  th,td{
-    padding: .8em;
+  th,
+  td {
+    padding: 0.8em;
   }
-  th{
+  th {
     text-align: left;
     background: #eaeaea;
-    border:1px solid #ddd;
+    border: 1px solid #ddd;
     color: #333;
     width: 30%;
-    @include screen('mobile') {
+    @include screen("mobile") {
       width: auto;
     }
-    input{
-      margin-right: .5em;
+    input {
+      margin-right: 0.5em;
     }
-    label{
+    label {
       margin-bottom: 0;
     }
   }
-  td{
-    input,select{
+  td {
+    input,
+    select {
       margin-bottom: 0;
     }
-    .form_inline{
-      input,select{
+    .form_inline {
+      input,
+      select {
         width: auto;
       }
-      input[type="radio"]{
+      input[type="radio"] {
         width: 1em;
       }
-      select{
-        padding: .5em;
+      select {
+        padding: 0.5em;
         line-height: normal;
       }
-      label{
+      label {
         margin-right: -4px;
       }
-      select~input{
+      select ~ input {
         width: 4em;
         margin-right: 3px;
         margin-left: 3px;
       }
     }
-    .check_grp{
-      label{
+    .check_grp {
+      label {
         display: block;
       }
     }
   }
-  .adv_inlist{
+  .adv_inlist {
     display: none;
   }
 }
-.survey{
-  table{
+.survey {
+  table {
     margin-bottom: 20px;
   }
-  th,td{
-    padding: .8em;
+  th,
+  td {
+    padding: 0.8em;
   }
-  th{
+  th {
     text-align: right;
     background: #eaeaea;
-    border:1px solid #ddd;
+    border: 1px solid #ddd;
     color: #333;
     width: 20%;
-    @include screen('mobile') {
+    @include screen("mobile") {
       width: auto;
       text-align: left;
     }
-    input{
-      margin-right: .5em;
+    input {
+      margin-right: 0.5em;
     }
-    label{
+    label {
       margin-bottom: 0;
     }
   }
-  td{
-    label{
+  td {
+    label {
       width: 19%;
       margin-bottom: 0;
-      @include screen('mobile') {
+      @include screen("mobile") {
         width: auto;
       }
     }
-    .check_grp{
-      label{
+    .check_grp {
+      label {
         display: block;
+      }
+    }
+  }
+}
+.textBlue {
+  color: $aHover;
+}
+.apply {
+  margin-top: 1em;
+  table {
+    td {
+      a {
+        &.aInfo,
+        &.aHire,
+        &.aRegister {
+          white-space: nowrap;
+          display: inline-block;
+          text-decoration: none;
+          padding: 4px 8px;
+          border-radius: 2px;
+          transition: background 0.2s ease-out;
+        }
+
+        &.aInfo {
+          background: #444;
+          color: #fff;
+          &:hover {
+            background: #666;
+          }
+        }
+        &.aHire {
+          background: $primaryColor;
+          color: #fff;
+          &:hover {
+            background: $aHover;
+          }
+        }
+        &.aRegister {
+          background: #a6870c;
+          color: #fff;
+          &:hover {
+            background: #8a710a;
+          }
+        }
+      }
+    }
+  }
+  .applyInfoBlock {
+    margin-bottom: 2em;
+    .applyInfoTitle {
+      font-size: 1.5em;
+      font-weight: bold;
+      padding-left: 16px;
+      position: relative;
+      &:before {
+        content: "";
+        width: 5px;
+        height: 24px;
+        background: $primaryColor;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+      }
+    }
+    p {
+      line-height: 180%;
+      em {
+        color: $linkColor;
+        font-style: normal;
+        font-weight: bold;
+      }
+    }
+    ul,
+    ol {
+      line-height: 180%;
+    }
+  }
+  .applyBtn {
+    margin: 1rem 0;
+    text-align: center;
+    a {
+      padding: 1rem 4rem;
+      background: $primaryColor;
+      color: #fff;
+      cursor: pointer;
+      &:hover,
+      &:focus {
+        background: $aHover;
+      }
+    }
+  }
+  .flow {
+    margin: 50px auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    &:after {
+      @include screen("xs_mobile") {
+        content: "";
+        position: absolute;
+        width: 100%;
+        z-index: 98;
+        height: 2px;
+        display: block;
+        background: #ccc;
+        top: 46px;
+      }
+      @media screen and (max-width: 514px) {
+        top: 30px;
+      }
+      @media screen and (max-width: 320px) {
+        top: 25px;
+      }
+    }
+    .step {
+      width: 100px;
+      padding-right: 4%;
+      margin-left: 4%;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      color: #444;
+      position: relative;
+      font-weight: bold;
+      z-index: 99;
+      @include screen("tablet") {
+        padding-right: 2%;
+        margin-left: 2%;
+      }
+      @include screen("xs_mobile") {
+        padding-right: 1%;
+        margin-left: 1%;
+        text-indent: -9999px;
+      }
+      @media screen and (max-width: 514px) {
+        width: 20%;
+      }
+      &:after {
+        content: "";
+        width: 18px;
+        height: 18px;
+        display: block;
+        vertical-align: middle;
+        border: 2px solid #dfe4e9;
+        transform: rotate(45deg);
+        border-bottom: none;
+        border-left: none;
+        position: absolute;
+        right: -5px;
+        top: 40px;
+        @include screen("xs_mobile") {
+          display: none;
+        }
+      }
+      &:last-of-type:after {
+        display: none;
+      }
+      .no {
+        width: 94px;
+        height: 94px;
+        border-radius: 50%;
+        display: block;
+        background: #dfe4e9;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 12px;
+        position: relative;
+        font-family: "Century Gothic";
+        @include screen("xs_mobile") {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: 38px;
+          left: 50%;
+          margin-left: -10px;
+        }
+        @media screen and (max-width: 514px) {
+          top: 22px;
+        }
+        @media screen and (max-width: 320px) {
+          top: 17px;
+        }
+        span {
+          position: absolute;
+          color: #444;
+          left: 36px;
+          top: 24px;
+          font-size: 2.25em;
+          @media screen and (max-width: 514px) {
+            left: 20px;
+            top: 18px;
+          }
+          @media screen and (max-width: 320px) {
+            left: 15px;
+            top: 14px;
+          }
+        }
+        &:after {
+          content: "step";
+          position: absolute;
+          color: #5b6065;
+          left: 30px;
+          bottom: 15px;
+          font-size: 1.125em;
+          @media screen and (max-width: 514px) {
+            display: none;
+          }
+          // @media screen and (max-width: 514px) {
+          //     display: none;
+          // }
+        }
+      }
+      &.active {
+        color: $flowColor;
+        text-indent: 0;
+        .no {
+          @include gradient($flowBgColor1, $flowBgColor2, vertical);
+          @include screen("xs_mobile") {
+            width: 94px;
+            height: 94px;
+            border-radius: 50%;
+            display: block;
+            @include gradient($flowBgColor1, $flowBgColor2, vertical);
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            position: relative;
+            font-family: "Century Gothic";
+            top: auto;
+            left: auto;
+          }
+          @media screen and (max-width: 514px) {
+            width: 60px;
+            height: 60px;
+          }
+          @media screen and (max-width: 320px) {
+            width: 50px;
+            height: 50px;
+          }
+        }
+        &:after {
+          border: 2px solid $flowBgColor1;
+          border-bottom: none;
+          border-left: none;
+        }
+      }
+    }
+  }
+  h3 {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #787878;
+    text-align: center;
+  }
+  .agreement {
+    color: #fff;
+    background: $aHover;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    h3 {
+      margin-top: 0;
+      border-bottom: 1px solid #fff;
+    }
+    p,
+    ul,
+    ol {
+      line-height: 180%;
+    }
+    em {
+      font-style: normal;
+      color: $color-yellow;
+    }
+    .textCenter {
+      text-align: center;
+    }
+  }
+  form {
+    abbr[title] {
+      border-bottom: none;
+      text-decoration: none;
+      padding: 2px 4px;
+      border: 1px solid red;
+      border-radius: 2px;
+      font-size: 0.875rem;
+      margin-right: 8px;
+    }
+  }
+  .applyForm {
+    .formText {
+      margin-bottom: 1em;
+      .formTitle {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-left: 16px;
+        position: relative;
+        &:before {
+          content: "";
+          width: 5px;
+          height: 24px;
+          background: $primaryColor;
+          display: inline-block;
+          position: absolute;
+          left: 0;
+        }
+      }
+      .number {
+        font-weight: bold;
+        color: $aHover;
+        margin-top: 1em;
+      }
+    }
+    .formBlock {
+      padding: 2rem;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      margin-bottom: 2em;
+      position: relative;
+      .formBlockTitle {
+        background: $aHover;
+        color: #fff;
+        padding: 0.5em 1em;
+        display: inline-block;
+        position: absolute;
+        left: 2em;
+        top: 0;
+        font-size: 1.125em;
+        & + .form_grp {
+          margin-top: 1em;
+        }
+      }
+      .form_content {
+        p,
+        ul,
+        ol {
+          margin-top: 0;
+          margin-bottom: 0.5em;
+        }
+        .form_inline {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          input[type="text"] {
+            width: auto;
+          }
+          input[type="button"],
+          button {
+            min-width: auto;
+            margin: 0 0 0.3em 4px;
+          }
+          label,
+          div {
+            margin: 0 0.5em 0 0;
+          }
+          span {
+            margin-left: 4px;
+          }
+          &.applyId {
+            input[type="text"] {
+              flex-grow: 1;
+            }
+          }
+          &.applyDate {
+            input[type="text"],
+            input[type="date"] {
+              width: auto;
+              & + span {
+                margin-left: 8px;
+                margin-right: 8px;
+              }
+            }
+            label {
+              margin-left: 8px;
+            }
+          }
+        }
+        .uploadBlock {
+          margin-top: 8px;
+          .applyFileList {
+            ol,
+            ul {
+              list-style: none;
+              padding: 8px;
+              background: #efefef;
+              border-radius: 4px;
+              li {
+                padding: 4px 40px 4px 8px;
+                border-bottom: 1px dotted #ccc;
+                position: relative;
+                &:last-child {
+                  border-bottom: 0;
+                }
+                span {
+                  color: #666;
+                  margin-left: 1em;
+                }
+                a {
+                  text-decoration: underline;
+                  cursor: pointer;
+                }
+                a.deleteFile {
+                  width: 24px;
+                  height: 24px;
+                  display: inline-block;
+                  background: url(../images/icon/icon_delete.svg) no-repeat;
+                  font-size: 0;
+                  position: absolute;
+                  right: 8px;
+                  top: 6px;
+                  opacity: 0.7;
+                }
+              }
+            }
+          }
+        }
+      }
+      .form_grp:last-child {
+        border-bottom: 0;
       }
     }
   }
