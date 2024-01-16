@@ -531,6 +531,11 @@
     overflow: hidden;
     text-align: center;
     position: relative;
+    @include screen("mobile") {
+      display: flex;
+      margin: 20px auto;
+      justify-content: center;
+    }
     &:after {
       @include screen("xs_mobile") {
         content: "";

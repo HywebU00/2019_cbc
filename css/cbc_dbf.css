@@ -8643,6 +8643,17 @@ h3.block_title {
   text-align: center;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .apply .flow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (max-width: 575px) {
   .apply .flow:after {
     content: "";
@@ -9076,6 +9087,17 @@ h3.block_title {
   text-align: center;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .suggestions .flow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 20px auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media screen and (max-width: 575px) {
   .suggestions .flow:after {
     content: "";
@@ -9306,9 +9328,10 @@ h3.block_title {
   border: 0px;
 }
 .suggestions .text_block.suggestions_result table tr {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #ddd;
 }
-.suggestions .text_block.suggestions_result table tr:last-child th, .suggestions .text_block.suggestions_result table tr:last-child td {
+.suggestions .text_block.suggestions_result table tr:last-child th,
+.suggestions .text_block.suggestions_result table tr:last-child td {
   color: #2b9032;
 }
 .suggestions .text_block.suggestions_result table th {
@@ -9321,7 +9344,8 @@ h3.block_title {
     white-space: normal;
   }
 }
-.suggestions .text_block.suggestions_result table th, .suggestions .text_block.suggestions_result table td {
+.suggestions .text_block.suggestions_result table th,
+.suggestions .text_block.suggestions_result table td {
   background: transparent;
   color: #444;
   border: 0;
@@ -9329,7 +9353,8 @@ h3.block_title {
   padding-right: 30px;
 }
 @media screen and (max-width: 767px) {
-  .suggestions .text_block.suggestions_result table th, .suggestions .text_block.suggestions_result table td {
+  .suggestions .text_block.suggestions_result table th,
+  .suggestions .text_block.suggestions_result table td {
     padding-left: 5px;
     padding-right: 5px;
   }
