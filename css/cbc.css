@@ -4736,7 +4736,6 @@ div.function ul li.icon_forward a:before {
 .btn_reload:hover, .btn_upload:hover, .btn_minus:hover, .btn_add:hover, .btn_sound:hover, .btn_reload:focus, .btn_upload:focus, .btn_minus:focus, .btn_add:focus, .btn_sound:focus {
   -webkit-box-shadow: 0 0 0 0;
           box-shadow: 0 0 0 0;
-  outline: 0;
 }
 
 .btn_download:before {
