@@ -72,35 +72,27 @@
                   <th>項次</th>
                   <th>職務名稱</th>
                   <th>報名期間</th>
-                  <th>職缺說明</th>
                   <th>登錄履歷</th>
-                  <th>錄取公告</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td data-title="項次" class="num">1</td>
-                  <td data-title="職務名稱">中央銀行甄用經濟金融研究專業人員(辦事員)</td>
+                  <td data-title="職務名稱"><a href="">中央銀行甄用經濟金融研究專業人員(辦事員)</a></td>
                   <td data-title="報名期間" class="noWrap">2023/11/01~2023/11/30</td>
-                  <td data-title="職缺說明" class="center"><a href="apply_info.php" class="aInfo">職缺說明</a></td>
                   <td data-title="登錄履歷" class="center">已截止</td>
-                  <td data-title="錄取公告" class="center"><a href="apply_post.php" class="aHire">錄取公告</a></td>
                 </tr>
                 <tr>
                   <td data-title="項次" class="num">2</td>
-                  <td data-title="職務名稱">中央銀行甄用經濟金融經濟金融經濟金融經濟金融經濟金融經濟金融國庫局科員 (辦事員)</td>
+                  <td data-title="職務名稱"><a href="">中央銀行甄用經濟金融經濟金融經濟金融經濟金融經濟金融經濟金融國庫局科員 (辦事員)</a></td>
                   <td data-title="報名期間" class="noWrap">2023/12/01~2023/12/20</td>
-                  <td data-title="職缺說明" class="center"><a href="apply_info.php" class="aInfo">職缺說明</a></td>
-                  <td data-title="登錄履歷" class="center"><a href="apply_resume1.php" class="aRegister">登錄履歷</a></td>
-                  <td data-title="錄取公告" class="center"></td>
+                  <td data-title="登錄履歷" class="center"><a href="apply_resume1.php" class="aRegister">報名</a></td>
                 </tr>
                 <tr>
                   <td data-title="項次" class="num">3</td>
-                  <td data-title="職務名稱">中央銀行甄用經濟金融會計處科員(辦事員)</td>
+                  <td data-title="職務名稱"><a href="">中央銀行甄用經濟金融會計處科員(辦事員)</a></td>
                   <td data-title="報名期間" class="noWrap">2023/12/01~2023/12/20</td>
-                  <td data-title="職缺說明" class="center"><a href="apply_info.php" class="aInfo">職缺說明</a></td>
-                  <td data-title="登錄履歷" class="center"><a href="apply_resume1.php" class="aRegister">登錄履歷</a></td>
-                  <td data-title="錄取公告" class="center"></td>
+                  <td data-title="登錄履歷" class="center"><a href="apply_resume1.php" class="aRegister">報名</a></td>
                 </tr>
               </tbody>
             </table>
