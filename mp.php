@@ -39,17 +39,18 @@
             <div class="vertical_slider">
               <ul>
                 <li>
-                  <a href="https://www.hyweb.com.tw"><img src="https://www.cbc.gov.tw/public/Data/932114442271.jpg" alt="央行理監事會後記者會央行理監事會後記者會"></a>
+                  <a href="https://www.hyweb.com.tw"><img src="https://www.cbc.gov.tw/Public/Images/202402/664240205104899148.jpg" alt="金龍迎新春，歡喜滿人間"></a>
                 </li>
                 <li>
-                  <a href="http://design.hyweb.com.tw/hyui"><img src="https://www.cbc.gov.tw/public/Data/931416205471.jpg" alt="本行進用退役運動選手緣由及現況"></a>
+                  <a href=""><img src="https://www.cbc.gov.tw/Public/Images/202401/79424012217198b559.jpg" alt="紅包在心不在新"></a>
                 </li>
                 <li>
-                  <a href=""><img src="https://www.cbc.gov.tw/public/Data/9171810371.jpg" alt="對美中貿易失衡的觀點"></a>
+                  <a href="http://design.hyweb.com.tw/hyui"><img src="https://www.cbc.gov.tw/Public/Images/202312/567231214111597f12.png" alt="中央銀行理監事會後記者會"></a>
                 </li>
                 <li>
-                  <a href=""><img src="https://www.cbc.gov.tw/public/Data/91915105271.jpg" alt="總裁應The Banker雜誌邀稿專文"></a>
+                  <a href=""><img src="https://www.cbc.gov.tw/Public/Images/202307/8622307031535bd93f.jpg" alt="券幣數位博物館特展-錢塵往事"></a>
                 </li>
+
               </ul>
             </div>
           </div>
@@ -114,7 +115,7 @@
                     <li><time>2019-01-01</time><a href="">第五則消息</a></li>
                   </ul>
                   <div class="more"><a href="">更多電子布告欄</a></div>
-                </div>  
+                </div>
                 <h2 class="tabItem"><a href="javascript:;">徵才公告</a></h2>
                 <div class="tabContent">
                   <ul>
@@ -129,7 +130,7 @@
               </section>
             </div>
           </section>
-          
+
           <section class="video_block">
             <ul class="link_banner">
               <li><a href=""><img src="images/link1.png" alt=""></a></li>

@@ -5887,8 +5887,8 @@ div.more a:hover, div.more a:focus {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 45px;
-  height: 72px;
+  width: 34px;
+  height: 62px;
   display: block;
   background: rgba(0, 0, 0, 0.3);
   z-index: 89;
@@ -5908,14 +5908,14 @@ div.more a:hover, div.more a:focus {
 }
 .vertical_slider .slider_prev:before {
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: block;
   border-top: 2px solid #fff;
   border-left: 2px solid #fff;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  margin-left: 15px;
+  margin-left: 13px;
   margin-top: 20px;
 }
 @media screen and (max-width: 340px) {
@@ -5939,8 +5939,8 @@ div.more a:hover, div.more a:focus {
   position: absolute;
   top: 50%;
   right: 0;
-  width: 45px;
-  height: 72px;
+  width: 34px;
+  height: 62px;
   display: block;
   background: rgba(0, 0, 0, 0.3);
   z-index: 89;
@@ -5960,8 +5960,8 @@ div.more a:hover, div.more a:focus {
 }
 .vertical_slider .slider_next:before {
   content: "";
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   display: block;
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -6362,7 +6362,8 @@ div.more a:hover, div.more a:focus {
 .video_block .video_slider .video a {
   color: #333;
 }
-.video_block h2, .video_block .more {
+.video_block h2,
+.video_block .more {
   z-index: 12;
 }
 .video_block h2 {
@@ -6561,13 +6562,17 @@ ul.link_banner li a:focus img {
 .key_indicators_block .tabs .tabItem:hover a {
   background: #444;
 }
-.key_indicators_block .tabs .tabItem:hover a h3, .key_indicators_block .tabs .tabItem:hover a span.date, .key_indicators_block .tabs .tabItem:hover a span.info {
+.key_indicators_block .tabs .tabItem:hover a h3,
+.key_indicators_block .tabs .tabItem:hover a span.date,
+.key_indicators_block .tabs .tabItem:hover a span.info {
   color: #fff;
 }
 .key_indicators_block .tabs .tabItem.active {
   border: 0;
 }
-.key_indicators_block .tabs .tabItem.active a h3, .key_indicators_block .tabs .tabItem.active a span.date, .key_indicators_block .tabs .tabItem.active a span.info {
+.key_indicators_block .tabs .tabItem.active a h3,
+.key_indicators_block .tabs .tabItem.active a span.date,
+.key_indicators_block .tabs .tabItem.active a span.info {
   color: #fff;
 }
 .key_indicators_block .tabs .tabItem.active:hover a {
@@ -7242,7 +7247,7 @@ ul.link_banner li a:focus img {
 .fixed_right_block a.right_menu:before {
   content: "";
   margin: -1px 0 0 -7px;
-  background: #FFF;
+  background: #fff;
   display: block;
   width: 14px;
   height: 2px;
@@ -7254,7 +7259,7 @@ ul.link_banner li a:focus img {
 .fixed_right_block a.right_menu:after {
   content: "";
   margin: -1px 0 0 -7px;
-  background: #FFF;
+  background: #fff;
   display: block;
   width: 14px;
   height: 2px;

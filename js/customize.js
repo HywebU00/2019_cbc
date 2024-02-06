@@ -117,10 +117,10 @@ $(function() {
     // 新增左右箭頭
     $('.vertical_slider').append('<a href="javascript:;" class="slider_prev">上一則</a><a href="javascript:;" class="slider_next">下一則</a>')
     // 設定右邊選單
-    $('.v_slider .container').append('<div class="vslider_menu"><ul></ul></div>'); // 先為menu設定一個家 
+    $('.v_slider .container').append('<div class="vslider_menu"><ul></ul></div>'); // 先為menu設定一個家
     $('.vertical_slider ul li').each(function() {
         var caption = $(this).find('img').attr('alt');
-        // var Sec_index = $(this).index();   
+        // var Sec_index = $(this).index();
         // console.log(Sec_index+SecHTML);
         $('.vslider_menu ul').append('<li><a href="#">' + caption + '</a>');
 		$(this).find('img').attr('alt','');
@@ -134,9 +134,9 @@ $(function() {
     $('.vslider_menu ul li').each(function(index, el) {
 		$(this).css('height', menuLiHeight - 1);
 	});
-    $('.vslider_menu ul li:last').height(menuLiHeight + 2);	
+    $('.vslider_menu ul li:last').height(menuLiHeight + 2);
     $(window).resize(function(e) {
-        var vsliderH = $('.vertical_slider').height();        
+        var vsliderH = $('.vertical_slider').height();
         menuLiHeight = Math.floor(vsliderH / menuLength);
         $('.vslider_menu ul li').each(function(index, el) {
             $(this).css('height', menuLiHeight - 1);
@@ -167,7 +167,7 @@ $(function() {
                 pic_index = 0;
             }
             $('.vertical_slider ul li').eq(pic_index).css({
-                top: '305px'
+                top: '310px'
             });
             $('.vertical_slider ul li a').attr('tabindex', '-1');
             $('.vertical_slider ul li').eq(pic_index).find('a').attr('tabindex', '0');
@@ -209,14 +209,14 @@ $(function() {
     //prev function
     function prev() {
         enterSliderMode = true;
-        $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: '305px' }, duration_speed, 'swing');
+        $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: '310px' }, duration_speed, 'swing');
         if (pic_index > 0) {
             pic_index--;
         } else {
             pic_index = $('.vertical_slider ul li').last().index();
         }
         $('.vertical_slider ul li').eq(pic_index).css({
-            top: '-305px'
+            top: '-310px'
         });
         $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: "0px" }, duration_speed, 'swing');
         // console.log('pic_index=' + pic_index);
@@ -229,14 +229,14 @@ $(function() {
     //next function
     function next() {
         enterSliderMode = true;
-        $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: '-305px' }, duration_speed, 'swing');
+        $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: '-310px' }, duration_speed, 'swing');
         if (pic_index < $('.vertical_slider ul li').length - 1) {
             pic_index++;
         } else {
             pic_index = 0;
         }
         $('.vertical_slider ul li').eq(pic_index).css({
-            top: '305px'
+            top: '310px'
         });
         $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: "0px" }, duration_speed, 'swing');
         // console.log('pic_index=' + pic_index);
@@ -249,14 +249,14 @@ $(function() {
     //menu function
     $('.vslider_menu ul li').off().on('click', function(e) {
         if (pic_index != $(this).index()) {
-            $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: "-305px" }, duration_speed, 'swing');
+            $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: "-310px" }, duration_speed, 'swing');
             console.log('pic_index=' + pic_index);
             pic_index = $(this).index();
             $('.vslider_menu ul li').removeClass('active');
             $(this).parent('li').addClass('active');
             // 把準備進場的圖片就定位
             $('.vertical_slider ul li').eq(pic_index).css({
-                top: '305px'
+                top: '310px'
             });
             // 圖片滑進來
             $('.vertical_slider ul li').eq(pic_index).stop(true, false).animate({ top: 0 }, duration_speed, 'swing');
@@ -330,7 +330,7 @@ $(function(){
     $('.category').find('a').off().click(function(event) {
         $(this).parent('li').siblings().find('a').removeClass('active');
         $(this).addClass('active');
-    }); 
+    });
 });
 // lp table_list th 寬度
 $(function(){
@@ -338,10 +338,10 @@ $(function(){
         var thWidth = 0;
         $('.table_list th').each(function(){
             if($(this).width()>thWidth){
-                thWidth = $(this).width(); 
+                thWidth = $(this).width();
             }
         });
-        if ($(window).outerWidth() <= 768) { 
+        if ($(window).outerWidth() <= 768) {
             var allWidth=$('.table_list table').width(),
             thRealWidth=Math.floor((thWidth/allWidth)*100);
             $(".table_list td").css({"padding-left":(thRealWidth+5)+"%"});
@@ -382,7 +382,7 @@ $(function(){
 // fixed menu
 $(function(){
 
-    $(window).bind("load scroll resize", function(e) { 
+    $(window).bind("load scroll resize", function(e) {
         if ($(window).outerWidth() >= 1100 ) {
             var ww = $(window).outerWidth(),
             pageWidth=$(".container").width(),
@@ -402,7 +402,7 @@ $(function(){
             $(this).removeClass('close').text("展開/OPEN").siblings('ul').stop(true, true).slideUp();
         } else {
             $(this).toggleClass('close').html($('.right_menu').text() == '展開/OPEN' ? '收合/CLOSE' : '展開/OPEN').siblings('ul').stop(true, true).slideToggle();
-        } 
+        }
         e.preventDefault();
     });
     _fixedRight.keyup(function(event) {
@@ -424,7 +424,7 @@ $(function(){
     //         $('.fixed_right_block ul').hide();
     //     }
     // });
-    
+
 });
 
 $(function(){
