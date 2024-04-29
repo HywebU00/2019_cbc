@@ -1559,6 +1559,12 @@ ul.link_banner {
         display: inline-block;
       }
       a {
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+          width: 44px;
+          height: 44px;
+        }
         &:hover,
         &:focus {
           box-shadow: 0 0 0 0;
@@ -1566,6 +1572,10 @@ ul.link_banner {
         &.facebook {
           background: #999 url(../images/icon_facebook.png) no-repeat center
             center;
+          background-size: contain;
+        }
+        &.ig {
+          background: #999 url(../images/icon_ig.png) no-repeat center center;
           background-size: contain;
         }
         &.youtube {
@@ -1598,6 +1608,11 @@ ul.link_banner {
           &.facebook {
             background: #4067b4 url(../images/icon_facebook.png) no-repeat
               center center;
+            background-size: contain;
+          }
+          &.ig {
+            background: #4067b4 url(../images/icon_ig_.png) no-repeat center
+              center;
             background-size: contain;
           }
           &.youtube {

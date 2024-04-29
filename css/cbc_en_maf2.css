@@ -7290,12 +7290,24 @@ ul.link_banner li a:focus img {
     display: inline-block;
   }
 }
+.fixed_right_block ul li a {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.fixed_right_block ul li a img {
+  width: 44px;
+  height: 44px;
+}
 .fixed_right_block ul li a:hover, .fixed_right_block ul li a:focus {
   -webkit-box-shadow: 0 0 0 0;
           box-shadow: 0 0 0 0;
 }
 .fixed_right_block ul li a.facebook {
   background: #999 url(../images/icon_facebook.png) no-repeat center center;
+  background-size: contain;
+}
+.fixed_right_block ul li a.ig {
+  background: #999 url(../images/icon_ig.png) no-repeat center center;
   background-size: contain;
 }
 .fixed_right_block ul li a.youtube {
@@ -7322,6 +7334,10 @@ ul.link_banner li a:focus img {
 }
 .fixed_right_block ul li a:hover.facebook, .fixed_right_block ul li a:focus.facebook {
   background: #4067b4 url(../images/icon_facebook.png) no-repeat center center;
+  background-size: contain;
+}
+.fixed_right_block ul li a:hover.ig, .fixed_right_block ul li a:focus.ig {
+  background: #4067b4 url(../images/icon_ig_.png) no-repeat center center;
   background-size: contain;
 }
 .fixed_right_block ul li a:hover.youtube, .fixed_right_block ul li a:focus.youtube {

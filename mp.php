@@ -589,6 +589,7 @@
     <div class="fixed_right_block">
       <ul>
         <li><a href="https://www.facebook.com/cbc.gov.tw/" class="facebook" title="Facebook">Facebook</a></li>
+        <li><a href="#" class="ig" title="ig">instagram</a></li>
         <li><a href="https://www.youtube.com/user/TheCBCTube" class="youtube" title="Youtube">Youtube</a></li>
         <li><a href="http://www.flickr.com/photos/cbcbank" class="flickr" title="Flickr">Flickr</a></li>
         <li><a href="https://www.cbc.gov.tw/content.asp?mp=1&CuItem=46009" class="app" title="中央銀行APP">中央銀行APP</a></li>
